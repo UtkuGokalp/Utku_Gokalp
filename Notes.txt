@@ -1,0 +1,9 @@
+TIM3 (PA7) should be connected to ADC1 (PA0)
+TIM5 (PA1) should be connected to ADC2 (PA5)
+
+For USB Commands:
+retrain doesn't have any arguments. Other commands are used as follows
+<command> get prints out the current value(s)
+<command> set <value(s)> sets the value(s)
+
+When weight1 get is given after weight0 get, the usb systems stops working but I couldn't figure out why
